@@ -18,7 +18,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://easyemail.vercel.app/",
+    origin: "https://easyemail.vercel.app",
   })
 );
 
